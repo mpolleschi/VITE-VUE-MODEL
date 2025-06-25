@@ -5,7 +5,7 @@
     <input
       v-model="text"
       @keyup.enter="addTodo"
-      placeholder="Aggiungi un todo"
+      placeholder="Aggiungi un nuovo todo"
     />
     <select v-model="priority">
       <option disabled value="">Seleziona priorità</option>

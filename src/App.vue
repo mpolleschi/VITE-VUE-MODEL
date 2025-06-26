@@ -1,7 +1,7 @@
 <!-- filepath: vite-todo-vue/src/App.vue -->
 <template>
   <div class="app">
-    <h1>Todo App (Vue)</h1>
+    <h2>Todo App (Vue)</h2>
     <input
       v-model="text"
       @keyup.enter="addTodo"
